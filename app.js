@@ -227,7 +227,6 @@ function CrearPiezas() {
     piezas.push(new Pieza("l", [[2, 0], [0, 1], [1, 1], [2, 1]], 0.10, "green"));
     piezas.push(new Pieza("s", [[1, 0], [2, 0], [0, 1], [1, 1]], 0.30, "purple"));
     piezas.push(new Pieza("z", [[0, 0], [1, 0], [1, 1], [2, 1]], 0.16, "turquoise"));
-    piezas.push(new Pieza("z", [[0, 0], [1, 0], [1, 1], [2, 1]], 0.16, "turquoise"));
 
     piezas = piezas.sort((a, b) => a.probabilidad - b.probabilidad);
 
